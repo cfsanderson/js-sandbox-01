@@ -2,7 +2,7 @@ const $ = s => document.querySelector(s)
 const $$ = s => document.querySelectorAll(s)
 
 const handleButtonClick = (event) => {
-  console.log("Nice click!")
+  console.log('nice click')
 }
 
 const main = () => {
