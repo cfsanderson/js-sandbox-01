@@ -3,7 +3,7 @@
   <head lang="en">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <title>Vanilla JS</title>
+    <title>Javascript Basics</title>
     <link href="https://fonts.googleapis.com/css?family=Eczar|Work+Sans:200,300,400,500" rel="stylesheet">
     <link href="/screen.css" rel="stylesheet">
   </head>
@@ -11,21 +11,41 @@
 
     <main>
       <header>
-        <h1>Hello World!</h1>
+        <h1>Javascript Basics</h1>
+        <h2>Beau Teaches Javascript</h2>
       </header>
-      <p>Welcome to my vanilla js boilerplate.</p>
-      <button on>Click and Check Console</button>
+      <p>This project is based on
+        <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp's</a>
+        <i>"Javascript Basics: Beau Teaches Javascript"</i>
+        video playlist on YouTube by
+        <a href="http://carnes.cc/" target="_blank">Beau Carnes</a>.
+      </p>
+      <p>I started using this basic vanilla JS app to follow along with the videos anyway so I figured in the spirit of freeCodeCamp I'd give it a simple UI and make it public for others to benefit.</p>
+      <p>Everything is happening in the console so pop open those dev tools and check it out. If you need some help getting this project going, check out the README.md on the Github repo. Also, feel free to tweet at me with questions, comments, concerns, or complaints.</p>
+      <!-- Video buttons -->
+      <a class="button" href="https://youtu.be/le-URjBhevE?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5" id='first-button' target="_blank">Variables</a>
+      <a class="button" href="https://youtu.be/808eYu9B9Yw?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5" id='second-button' target="_blank">Data Types</a>
+
+      <!-- <div class="overlay">
+        <ul class="footer-nav">
+          <li>home</li>
+          <li>about</li>
+          <li>contact</li>
+        </ul>
+      </div> -->
+
     </main>
 
-    <div class="overlay">
-      <ul class="footer-nav">
-        <li>home</li>
-        <li>about</li>
-        <li>contact</li>
-      </ul>
-    </div>
+<!-- the a.button's above should change the `src` of the script tag below. -->
 
-    <script src="/main.js" charset="utf-8"></script>
-    <script src="/20-string-methods.js" charset="utf-8"></script>
+    <script>
+      console.log("1st script tag");
+    </script>
+
+    <script id="main.js" src="/main.js" charset="utf-8"></script>
+
+    <script id="activeScript" src="" charset="utf-8">
+      console.log(document.getElementById('activeScript').src())
+    </script>
   </body>
 </html>

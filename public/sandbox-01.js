@@ -1,6 +1,3 @@
-// #4 String Basics
-// https://youtu.be/Vd_Z1bYGrCM?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5
-
 let string1 = "The cow jumped over the moon.";
 let string2 = "The moon jumped over the cow??!";
 console.log(string1);
