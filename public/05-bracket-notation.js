@@ -1,4 +1,4 @@
-// #5 String: [bracket-notation]
+console.log("Lesson #5: Strings; [bracket-notation]");
 // https://youtu.be/sPmRfjJdg5Y?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5
 
 let firstName = "Caleb"

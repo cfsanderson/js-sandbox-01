@@ -1,4 +1,4 @@
-// #7 functions
+console.log("Lesson #7: Functions");
 // https://youtu.be/R8SjM4DKK80?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5
 
 function square(number) {

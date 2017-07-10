@@ -1,4 +1,4 @@
-// #4 String Basics
+console.log("Lesson #4: String Basics");
 // https://youtu.be/Vd_Z1bYGrCM?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5
 
 let myName = "Caleb";

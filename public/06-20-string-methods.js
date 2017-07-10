@@ -1,4 +1,4 @@
-// #6 20 String Methods
+console.log("Lesson #6: 20 String Methods in 7 Minutes");
 // https://youtu.be/VRz0nbax0uI?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5
 
 let stringOne = "freeCodeCamp is the best place to learn";

@@ -1,4 +1,4 @@
-// #3 Numbers
+console.log("Lesson #3: Numbers");
 // https://youtu.be/nBEBraDJkFg?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5
 
 let number1 = 12;
