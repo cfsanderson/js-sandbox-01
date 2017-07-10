@@ -1,6 +1,7 @@
 const $ = s => document.querySelector(s)
 const $$ = s => document.querySelectorAll(s)
-// const json = require('../lessons-links.json');
+
+// use "$('body').className = 'modal'" to change to the modal.
 
 const handleButtonClick = (event) => {
   console.log('clicked:', event.srcElement.id)
