@@ -1,4 +1,4 @@
-console.log("Lesson #1 Variables");
+console.log("Lesson #1: Variables");
 // https://youtu.be/le-URjBhevE?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5
 
 let myName;
