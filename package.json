@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "deploy": "surge ./public --domain vanilla-JS-boilerplate.cfsanderson.surge.sh",
+    "deploy": "surge ./public --domain javascript-basics.cfsanderson.surge.sh",
     "start": "browser-sync start --server 'public' --files 'public'"
   },
   "devDependencies": {
