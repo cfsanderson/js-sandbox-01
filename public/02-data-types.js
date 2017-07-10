@@ -1,5 +1,5 @@
 console.log("Lesson #2: Data Types");
-
+// https://youtu.be/808eYu9B9Yw?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5
 
 // Boolean
 let data = false;
