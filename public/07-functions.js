@@ -8,11 +8,11 @@ function square(number) {
 let ten = 10
 console.log("1:", square(ten));
 
-// global scope
+// global scope variable
 let someVar = "Hat";
 
 function myFun() {
-  // local scope takes precedence here
+  // local scope variable takes precedence here
   let someVar = "Shoes";
   console.log("2:", someVar);
 }
