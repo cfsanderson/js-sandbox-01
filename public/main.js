@@ -76,5 +76,13 @@ const lessons = {
   "lesson12": {
     "title": "Lesson #12: Logical Operators && TRICKS with Short-Circuit Evaluation",
     "url": "https://youtu.be/r7v6EIiHfVA?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson13": {
+    "title": "Lesson #13: Ternary Operator",
+    "url": "https://youtu.be/s4sB1hm73tw?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson14": {
+    "title": "Lesson #14: Switch Statements",
+    "url": "https://youtu.be/fM5qnyasUYI?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
   }
 }
