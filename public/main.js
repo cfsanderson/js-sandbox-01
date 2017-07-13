@@ -84,5 +84,13 @@ const lessons = {
   "lesson14": {
     "title": "Lesson #14: Switch Statements",
     "url": "https://youtu.be/fM5qnyasUYI?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson15": {
+    "title": "Lesson #15: Arrays",
+    "url": "https://youtu.be/QEZXbRiaY1I?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson16": {
+    "title": "Lesson #16; Common Array Methods",
+    "url": "https://youtu.be/MeZVVxLn26E?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
   }
 }
