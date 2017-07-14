@@ -4,7 +4,8 @@ const $$ = s => document.querySelectorAll(s)
 // use "$('body').className = 'modal'" to change to the modal.
 
 const handleButtonClick = (event) => {
-  console.log('clicked:', event.srcElement.id)
+  // console.log('clicked:', event.srcElement.id)
+  console.log(lessons.lesson01.title);
 }
 
 const main = () => {
@@ -90,7 +91,23 @@ const lessons = {
     "url": "https://youtu.be/QEZXbRiaY1I?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
   },
   "lesson16": {
-    "title": "Lesson #16; Common Array Methods",
+    "title": "Lesson #16: Common Array Methods",
     "url": "https://youtu.be/MeZVVxLn26E?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson17": {
+    "title": "Lesson #17: Copying Arrays - Deep and Shallow",
+    "url": "https://youtu.be/EeZBKv34mm4?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson18": {
+    "title": "Lesson #18: Random Numbers and ParseInt",
+    "url": "https://youtu.be/-xAJKmjKCUE?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson19": {
+    "title": "Lesson #19: For Loops",
+    "url": "https://youtu.be/24Wpg6njlYI?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson20": {
+    "title": "Lesson #20: While / Do While",
+    "url": "https://youtu.be/v9zgD8wjtbw?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
   }
 }
