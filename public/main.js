@@ -109,5 +109,21 @@ const lessons = {
   "lesson20": {
     "title": "Lesson #20: While / Do While",
     "url": "https://youtu.be/v9zgD8wjtbw?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson21": {
+    "title": "Lesson #21: For In / For Of",
+    "url": "https://youtu.be/a3KHBqH7njs?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson22": {
+    "title": "Lesson #22: Array Iteration",
+    "url": "https://youtu.be/a3KHBqH7njs?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson23": {
+    "title": "Lesson #23: Objects",
+    "url": "https://youtu.be/Gp5nnerXETg?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
+  },
+  "lesson24": {
+    "title": "Lesson #24: Objects (part 2)",
+    "url": "https://youtu.be/r6SnMjsLrBk?list=PLWKjhJtqVAbk2qRZtWSzCIN38JC_NdhW5"
   }
 }

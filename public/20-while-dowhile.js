@@ -30,3 +30,6 @@ do {
   console.log("i = " + i);
 } while (i < 5);
 console.log("Change value of the variables 'i' and 'n' to 5 and rerun to check their behavior");
+
+// if browser freezes click window and kill the process in the activity monitor
+// for CodePen loops add ?turn_off_js=true or &turn_off_js=true to end of url
