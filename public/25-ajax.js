@@ -27,7 +27,7 @@ AJAX = Asynchronous Javascript And XML
 #6 - response is read by JS
 #7 - JS performs the action (e.g. updates the page)
 
-Adding "https://crossorigin.me" prevents the following error:
+Adding "https://crossorigin.me" is a cors proxy that prevents the following error:
 "XMLHttpRequest cannot load http://carnes.cc/code/ajax_example.txt. No 'Access-Control-Allow-Origin' header is present on the requested resource. Origin 'http://s.codepen.io' is therefore not allowed access."
 This is a temporary fix for CodePen but shoud not be necessary in a correct AJAX request.
 
@@ -42,7 +42,8 @@ This is a temporary fix for CodePen but shoud not be necessary in a correct AJAX
 - AND if HTML status is a `200` (which stands for found and OK)
 - get the element with the `id="demo"` and change the innerHTML (text) to the value of `this.responseText` is (could use `this.responseXML` if want XML returned).
 - the 3 values of `xhttp.open` are
-  - "GET" - which literally gets the response and pulls it down from..
+  - "GET" - which literally gets the response and pulls it down from.
+    - if sending a large amount of user data to the server should use "POST"
   - "url" - which is the server address you are pulling from.
   - "true" - which means that it is an Asynchronous request (will almost always be true)
 - xhttp.send() sends to the server.
