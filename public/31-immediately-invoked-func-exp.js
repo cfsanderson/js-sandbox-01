@@ -17,20 +17,20 @@ console.log(something);
 
 favNumber(5)
 
-var a = 15;
+var a = 2;
 
 (function() {
-  var a = 16;
+  var a = 3;
   console.log("3:", a);
 })();
 
 // The console log below cannot access the closure above so it uses the global variable.
 console.log("4:", a);
 
-let b = 17;
+let b = 4;
 
 {
-  let b = 18;
+  let b = 5;
   console.log("5:", b);
 }
 
