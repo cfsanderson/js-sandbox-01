@@ -37,5 +37,5 @@ function doSomething() {
   }
 }
 
-
+// for more info on dates see this MDN page
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
